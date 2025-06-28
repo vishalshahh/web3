@@ -1,8 +1,10 @@
 {
-  "extends": "@repo/typescript-config/base.json",
+  "extends": "../../tooling/typescript/internal-package.json",
   "compilerOptions": {
-    "outDir": "dist"
+    "lib": ["ES2022", "dom", "dom.iterable"],
+    "jsx": "preserve",
+    "rootDir": "."
   },
-  "include": ["components", "src/card.tsx", "src/code.tsx", "src/Hero-Section.tsx", "src/button.tsx"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

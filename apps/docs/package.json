@@ -18,13 +18,13 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/prettier-config": "workspace:*",
+    "@repo/tailwind-config": "workspace:*",
+    "@repo/tsconfig": "workspace:*",
     "@types/node": "^22.15.3",
     "@types/react": "^18.2.49",
     "@types/react-dom": "^18.2.20",
-    "@repo/eslint-config": "*",
-    "@repo/prettier-config": "*",
-    "@repo/tailwind-config": "*",
-    "@repo/typescript-config": "*",
     "prettier": "^3.2.5",
     "eslint": "^8.56.0",
     "typescript": "^5.4.5",
