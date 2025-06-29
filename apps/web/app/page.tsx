@@ -10,9 +10,9 @@ import { Footer } from "@repo/ui/footer"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-red-500">
+    <div className="min-h-screen bg-slate-900 text-white">
       <Navigation />
-      <main>
+      <main className="pt-20">
         <Hero />
         <FeaturedGrid />
         <StatsSection />
