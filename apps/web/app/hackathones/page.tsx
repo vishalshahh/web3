@@ -1,3 +1,5 @@
+"use client"
+
 import { Navigation } from "@repo/ui/navigation"
 import { HackathonsList } from "@repo/ui/hackathons-list"
 import { HackathonsHero } from "@repo/ui/hackathons-hero"

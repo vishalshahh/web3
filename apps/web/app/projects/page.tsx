@@ -1,3 +1,5 @@
+"use client"
+
 import { Navigation } from "@repo/ui/navigation"
 import { ProjectsGrid } from "@repo/ui/projects-grid"
 import { ProjectsFilter } from "@repo/ui/projects-filter"

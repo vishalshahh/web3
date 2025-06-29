@@ -1,3 +1,4 @@
+"use client"
 export function MissionSection() {
   return (
     <section className="py-24">

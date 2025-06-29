@@ -16,15 +16,15 @@
   },
   "dependencies": {
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.3",
+    "tailwindcss": "^3.4.17",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/prettier-config": "workspace:*",
     "@repo/tsconfig": "workspace:*",
+    "eslint": "^9.30.0",
     "prettier": "^3.2.5",
-    "eslint": "^8.56.0",
     "typescript": "^5.4.5"
   },
   "prettier": "@repo/prettier-config"

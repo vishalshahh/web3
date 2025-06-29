@@ -1,3 +1,4 @@
+"use client"
 import { Card } from "./card"
 import { Github, Twitter, Linkedin } from "lucide-react"
 

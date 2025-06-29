@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Web3 Platform Team" }],
   openGraph: {
     title: "Web3 Platform - Build the Future",
-    description: "A comprehensive Web3 platform for developers, creators, and innovators",
+    description: "A comprehensive Web3 Platform for developers, creators, and innovators",
     type: "website",
   },
 }
@@ -21,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>{children}</body>
+      <body className="font-sans bg-background text-foreground">
+        {children}
+      </body>
     </html>
   )
 }

@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "./button"
 import { Users, Target, Zap } from "lucide-react"
 

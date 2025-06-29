@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "./button"
 import { Trophy } from "lucide-react"
 

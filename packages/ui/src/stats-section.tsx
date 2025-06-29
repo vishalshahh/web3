@@ -1,3 +1,4 @@
+"use client"
 import { TrendingUp, Users, Code, Zap } from "lucide-react"
 
 export function StatsSection() {

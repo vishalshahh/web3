@@ -1,3 +1,4 @@
+"use client"
 import { Card } from "./card"
 import { Button } from "./button"
 import { Badge } from "./badge"

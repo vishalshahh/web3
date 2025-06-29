@@ -1,3 +1,5 @@
+"use client"
+
 import { Navigation } from "@repo/ui/navigation"
 import { EventsCalendar } from "@repo/ui/events-calendar"
 import { EventsHero } from "@repo/ui/events-hero"

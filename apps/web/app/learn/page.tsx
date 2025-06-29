@@ -1,3 +1,5 @@
+"use client"
+
 import { Navigation } from "@repo/ui/navigation"
 import { LearningResources } from "@repo/ui/learning-resources"
 import { Footer } from "@repo/ui/footer"

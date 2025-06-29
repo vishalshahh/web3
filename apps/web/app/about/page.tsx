@@ -1,3 +1,5 @@
+"use client"
+
 import { Navigation } from "@repo/ui/navigation"
 import { AboutHero } from "@repo/ui/about-hero"
 import { TeamSection } from "@repo/ui/team-section"

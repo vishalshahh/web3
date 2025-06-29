@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "./button"
 import { ArrowRight, Play } from "lucide-react"
 

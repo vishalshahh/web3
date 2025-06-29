@@ -1,3 +1,5 @@
+"use client"
+
 import { Navigation } from "@repo/ui/navigation"
 import { Hero } from "@repo/ui/hero"
 import { FeaturedGrid } from "@repo/ui/featured-grid"

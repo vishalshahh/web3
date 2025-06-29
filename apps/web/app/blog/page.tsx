@@ -1,3 +1,5 @@
+"use client"
+
 import { Navigation } from "@repo/ui/navigation"
 import { BlogGrid } from "@repo/ui/blog-grid"
 import { Footer } from "@repo/ui/footer"
