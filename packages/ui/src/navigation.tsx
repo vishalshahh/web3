@@ -42,13 +42,18 @@ export function Navigation() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground hover:text-primary transition-colors duration-200"
+              aria-label="GitHub"
             >
               <Github className="w-5 h-5" />
             </a>
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="lg:hidden" onClick={() => setIsOpen(!isOpen)}>
+          <button
+            className="lg:hidden p-2 rounded-md hover:bg-accent transition-colors duration-200"
+            onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle menu"
+          >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
@@ -61,7 +66,7 @@ export function Navigation() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
+                  className="text-foreground hover:text-primary transition-colors duration-200 font-medium py-2"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.label}
@@ -71,7 +76,7 @@ export function Navigation() {
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors duration-200"
+                className="flex items-center space-x-2 text-foreground hover:text-primary transition-colors duration-200 py-2"
               >
                 <Github className="w-5 h-5" />
                 <span>GitHub</span>

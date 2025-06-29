@@ -1,10 +1,4 @@
-/** @type {import('typescript-eslint').Config} */
-export default [
-  {
-    ignores: [".next/**"],
-  },
-  ...baseConfig,
-  ...reactConfig,
-  ...nextjsConfig,
-  ...restrictEnvAccess,
-];
+import { nextJsConfig } from "../../tooling/eslint/nextjs";
+
+/** @type {import("eslint").Linter.Config} */
+export default nextJsConfig;
