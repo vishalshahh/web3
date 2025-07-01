@@ -1,15 +1,17 @@
 {
-  "name": "@repo/tailwind-config",
-  "version": "0.1.0",
-  "private": true,
-  "type": "module",
-  "exports": {
-    ".": "./shared-styles.css",
-    "./postcss": "./postcss.config.js"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "postcss": "^8.4.47",
-    "tailwindcss": "^4.1.11"
-  }
+	"name": "@repo/tailwind-config",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+  "main": "./tailwind.config.js",
+	"exports": {
+    "./tailwind.config.js": "./tailwind.config.js",
+    "./shared-styles.css": "./shared-styles.css",
+		"./postcss": "./postcss.config.js"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"postcss": "^8.4.47",
+		"tailwindcss": "^4.1.11"
+	}
 }

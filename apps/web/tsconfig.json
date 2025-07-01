@@ -1,34 +1,17 @@
 {
-  "extends": "../../tooling/typescript/base.json",
-  "compilerOptions": {
-    "lib": [
-      "ES2022",
-      "dom",
-      "dom.iterable"
-    ],
-    "jsx": "preserve",
-    "baseUrl": ".",
-    "paths": {
-      "~/*": [
-        "./src/*"
-      ]
-    },
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "allowJs": true,
-    "noEmit": true
-  },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "next-env.d.ts",
-    "next.config.ts",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+	"extends": "../../tooling/typescript/nextjs.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@ui/*": ["../../packages/ui/src/*"]
+		}
+	},
+	"include": [
+		"next-env.d.ts",
+		".next/types/**/*.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"tailwind.config.js"
+	],
+	"exclude": ["node_modules"]
 }

@@ -1,7 +1,36 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --blue-1000: #2a8af6;
-  --purple-1000: #a853ba;
-  --red-1000: #e92a67;
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+    --primary: 240 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --border: 214.3 31.8% 91.4%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+    --radius: 0.5rem;
+  }
+
+  .bg-background {
+    background-color: hsl(var(--background) / 1);
+  }
+
+  .text-foreground {
+    color: hsl(var(--foreground) / 1);
+  }
+
+  .bg-primary {
+    background-color: hsl(var(--primary) / 1);
+  }
+
+  .text-primary-foreground {
+    color: hsl(var(--primary-foreground) / 1);
+  }
+
+  .border-border {
+    border-color: hsl(var(--border) / 1);
+  }
 }

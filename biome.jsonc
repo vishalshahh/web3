@@ -1,0 +1,11 @@
+{
+	"linter": {
+		"rules": {
+			"complexity": {
+				"noCommaOperator": {
+					"level": "off" 
+				}
+			}
+		}
+	}
+}

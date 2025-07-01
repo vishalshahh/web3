@@ -1,25 +1,26 @@
 {
-  "name": "web3-platform",
-  "private": true,
-  "packageManager": "pnpm@10.6.2",
-  "scripts": {
-    "build": "turbo run build",
-    "clean": "git clean -xdf .cache .next .turbo node_modules",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
-  },
-  "prettier": "@repo/prettier-config",
-  "devDependencies": {
-    "@repo/prettier-config": "^0.1.0",
-    "@turbo/gen": "^2.5.4",
-    "prettier": "^3.6.2",
-    "turbo": "^2.5.4",
-    "typescript": "^5.8.3"
-  },
-  "engines": {
-    "node": ">=18",
-    "pnpm": "^10.6.2"
-  }
+	"name": "web3-platform",
+	"private": true,
+	"packageManager": "pnpm@10.6.2",
+	"scripts": {
+		"build": "turbo run build",
+		"clean": "git clean -xdf .cache .next .turbo node_modules",
+		"dev": "turbo run dev",
+		"check-types": "turbo run check-types"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.0.5",
+		"@turbo/gen": "^2.5.4",
+		"autoprefixer": "^10.4.21",
+		"husky": "^9.1.7",
+		"postcss": "^8.5.6",
+		"tailwindcss": "^4.1.11",
+		"turbo": "^2.5.4",
+		"typescript": "^5.8.3",
+		"ultracite": "5.0.26"
+	},
+	"engines": {
+		"node": ">=18",
+		"pnpm": "^10.6.2"
+	}
 }
